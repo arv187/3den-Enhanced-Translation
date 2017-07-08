@@ -19,56 +19,6 @@
         <German>Legt fest wie schnell die Zeit vergeht.</German>
       </Key>
     </Container>
-    <Container name="Establishing Shot">
-      <Key ID="STR_ENH_establishingShot_centerPos_displayName">
-        <Original>Center Position</Original>
-        <English>Center Position</English>
-        <Czech>Středová pozice</Czech>
-        <French>Centre</French>
-        <Spanish>Posición centrada</Spanish>
-        <German>Anvisierte Position</German>
-      </Key>
-      <Key ID="STR_ENH_establishingShot_centerPos_tooltip">
-        <Original>The center position of the virtual UAV's orbit.</Original>
-        <English>The center position of the virtual UAV's orbit.</English>
-        <Czech>Střed orbity po které bude virtuální UAV obíhat.</Czech>
-        <French>Défini le centre de l'orbite de l'UAV (Drone) virtuel</French>
-        <Spanish>La posición centrada de la orbita del UAV (Drone) virtual</Spanish>
-        <German>Das Zentrum um die das virtuelle UAV kreist.</German>
-      </Key>
-      <Key ID="STR_ENH_establishingShot_displayedText">
-        <Original>Displayed Text</Original>
-        <English>Displayed Text</English>
-        <Czech>Zobrazený text</Czech>
-        <French>Texte affiché</French>
-        <Spanish>Texto mostrado</Spanish>
-        <German>Angezeigter Text</German>
-      </Key>
-      <Key ID="STR_ENH_establishingShot_altitude_displayName">
-        <Original>Altitude</Original>
-        <English>Altitude</English>
-        <Czech>Výška</Czech>
-        <French>Altitude</French>
-        <Spanish>Altitud</Spanish>
-        <German>Flughöhe</German>
-      </Key>
-      <Key ID="STR_ENH_establishingShot_radius_displayName">
-        <Original>Radius of the orbit</Original>
-        <English>Radius of the orbit</English>
-        <Czech>Poloměr orbity</Czech>
-        <French>Rayon de l'orbite</French>
-        <Spanish>Radio de la orbita</Spanish>
-        <German>Radius der Umlaufbahn</German>
-      </Key>
-      <Key ID="STR_ENH_establishingShot_viewingAngle_displayName">
-        <Original>Viewing Angle</Original>
-        <English>Viewing Angle</English>
-        <Czech>Zobrazovací úhel</Czech>
-        <French>Angle de la caméra</French>
-        <Spanish>Ángulo de la cámara</Spanish>
-        <German>Betrachtungswinkel</German>
-      </Key>
-    </Container>
     <Container name="Visual Settings">
       <Key ID="STR_ENH_viewDistance_displayName">
         <Original>View Distance</Original>
@@ -1602,6 +1552,11 @@
         <Spanish>Tomar el tamaño del objeto</Spanish>
         <German>Objektgröße messen</German>
       </Key>
+      <Key ID="STR_ENH_logPositions">
+        <Original>Log Positions</Original>
+        <English>Log Positions</English>
+        <German>Kopiere Positionen in Zwischenablage</German>
+      </Key>
     </Container>
     <Container name="Help">
       <Key ID="STR_ENH_HelpFunctionsOverview">
@@ -2061,6 +2016,56 @@
     </Container>
   </Package>
   <Package name="Controls">
+    <Container name="Establishing Shot">
+      <Key ID="STR_ENH_establishingShot_centerPos_displayName">
+        <Original>Center Position</Original>
+        <English>Center Position</English>
+        <Czech>Středová pozice</Czech>
+        <French>Centre</French>
+        <Spanish>Posición centrada</Spanish>
+        <German>Anvisierte Position</German>
+      </Key>
+      <Key ID="STR_ENH_establishingShot_centerPos_tooltip">
+        <Original>The center position of the virtual UAV's orbit.</Original>
+        <English>The center position of the virtual UAV's orbit.</English>
+        <Czech>Střed orbity po které bude virtuální UAV obíhat.</Czech>
+        <French>Défini le centre de l'orbite de l'UAV (Drone) virtuel</French>
+        <Spanish>La posición centrada de la orbita del UAV (Drone) virtual</Spanish>
+        <German>Das Zentrum um die das virtuelle UAV kreist.</German>
+      </Key>
+      <Key ID="STR_ENH_establishingShot_displayedText">
+        <Original>Displayed Text</Original>
+        <English>Displayed Text</English>
+        <Czech>Zobrazený text</Czech>
+        <French>Texte affiché</French>
+        <Spanish>Texto mostrado</Spanish>
+        <German>Angezeigter Text</German>
+      </Key>
+      <Key ID="STR_ENH_establishingShot_altitude_displayName">
+        <Original>Altitude</Original>
+        <English>Altitude</English>
+        <Czech>Výška</Czech>
+        <French>Altitude</French>
+        <Spanish>Altitud</Spanish>
+        <German>Flughöhe</German>
+      </Key>
+      <Key ID="STR_ENH_establishingShot_radius_displayName">
+        <Original>Radius of the orbit</Original>
+        <English>Radius of the orbit</English>
+        <Czech>Poloměr orbity</Czech>
+        <French>Rayon de l'orbite</French>
+        <Spanish>Radio de la orbita</Spanish>
+        <German>Radius der Umlaufbahn</German>
+      </Key>
+      <Key ID="STR_ENH_establishingShot_viewingAngle_displayName">
+        <Original>Viewing Angle</Original>
+        <English>Viewing Angle</English>
+        <Czech>Zobrazovací úhel</Czech>
+        <French>Angle de la caméra</French>
+        <Spanish>Ángulo de la cámara</Spanish>
+        <German>Betrachtungswinkel</German>
+      </Key>
+    </Container>
     <Container name="Terrain Quality">
       <Key ID="STR_ENH_terrainGrid_grassDisabled_displayName">
         <Original>Grass disabled</Original>
