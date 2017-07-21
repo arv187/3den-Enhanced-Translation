@@ -95,78 +95,6 @@
         <German>Spielt willkürlich ausgewählte Musikstücke am Anfang der Mission. Eingabe muss folgendermaßen aussehen: Klassenname_1, Klassenname_2, Klassenname_3, Klassenname_n.</German>
       </Key>
     </Container>
-    <Container name="Intro Text">
-      <Key ID="STR_ENH_introText_displayName">
-        <Original>Intro Text</Original>
-        <English>Intro Text</English>
-        <Czech>Úvodní text</Czech>
-        <French>Texte d'introduction</French>
-        <Spanish>Texto de la intro</Spanish>
-        <German>Intro Text</German>
-      </Key>
-      <Key ID="STR_ENH_introText_introDelay_displayName">
-        <Original>Delay</Original>
-        <English>Delay</English>
-        <Czech>Prodleva</Czech>
-        <French>Délai</French>
-        <Spanish>Retraso</Spanish>
-        <German>Verzögerung</German>
-      </Key>
-      <Key ID="STR_ENH_introText_introDelay_tooltip">
-        <Original>Defines how much time has to pass until the intro text is shown. Setting it to 0 will disable the intro.</Original>
-        <English>Defines how much time has to pass until the intro text is shown. Setting it to 0 will disable the intro.</English>
-        <Czech>Určuje kolik času musí uplynout než se úvodní text zobrazí. Nastavení této hodnoty na 0 deaktivuje intro.</Czech>
-        <French>Défini le délai d'apparition du texte d'introduction. Définir sur 0 pour désactiver l'introduction.</French>
-        <Spanish>Define cuánto tiempo tiene que pasar hasta que se muestre el texto de introducción. Si se establece en 0, se inhabilitará la introducción.</Spanish>
-        <German>Bestimmt wie viel Zeit vergehen muss bis das Intro angezeigt wird. Das Setzen auf 0 deaktiviert das Intro.</German>
-      </Key>
-      <Key ID="STR_ENH_introText_activate_displayName">
-        <Original>Activate</Original>
-        <English>Activate</English>
-        <Czech>Aktivovat</Czech>
-        <French>Activer</French>
-        <Spanish>Activar</Spanish>
-        <German>Aktivieren</German>
-      </Key>
-      <Key ID="STR_ENH_introText_activate_tooltip">
-        <Original>Will display three lines at the beginning of the mission for every player.</Original>
-        <English>Will display three lines at the beginning of the mission for every player.</English>
-        <Czech>Zobrazí tři řádky na začátku mise pro každého hráče.</Czech>
-        <French>Affiche trois lignes au début de la mission pour tous les joueurs.</French>
-        <Spanish>Mostrará tres líneas al principio de la misión para cada jugador.</Spanish>
-        <German>Am Anfang der Mission werden drei Zeilen für jeden Spieler angezeigt.</German>
-      </Key>
-      <Key ID="STR_ENH_introText_line1_displayName">
-        <Original>First Line</Original>
-        <English>First Line</English>
-        <Czech>První řádek</Czech>
-        <French>Première ligne</French>
-        <Spanish>Primera línea</Spanish>
-        <German>Erste Zeile</German>
-      </Key>
-      <Key ID="STR_ENH_introText_line2_displayName">
-        <Original>Second Line</Original>
-        <English>Second Line</English>
-        <Czech>Druhý řádek</Czech>
-        <French>Deuxième ligne</French>
-        <Spanish>Segunda línea</Spanish>
-        <German>Zweite Zeile</German>
-      </Key>
-      <Key ID="STR_ENH_introText_line3_displayName">
-        <Original>Third Line</Original>
-        <English>Third Line</English>
-        <Czech>Třetí řádek</Czech>
-        <French>Troisième ligne</French>
-        <Spanish>Tercera línea</Spanish>
-        <German>Dritte Zeile</German>
-      </Key>
-      <Key ID="STR_ENH_introText_introType_displayName">
-        <Original>APEX Protocol Style</Original>
-        <English>APEX Protocol Style</English>
-        <Spanish>Estilo Protocolo APEX</Spanish>
-        <German>APEX Protocol Stil</German>
-      </Key>
-    </Container>
     <Container name="Dynamic Groups">
       <Key ID="STR_ENH_dynamicGroups_tooltip">
         <Original>Enables the Dynamic Groups system.</Original>
@@ -301,56 +229,6 @@
         <German>Zugehörigkeit</German>
       </Key>
     </Container>
-    <Container name="Tool Settings">
-      <Key ID="STR_ENH_toolSettings_circularPatternRadius_displayName">
-        <Original>Circular Pattern Radius</Original>
-        <English>Circular Pattern Radius</English>
-        <Czech>Okruh obletové kružnice</Czech>
-        <French>Rayon du positionnement "En Cercle"</French>
-        <Spanish>Radio de formación circular</Spanish>
-        <German>Kreismusterradius</German>
-      </Key>
-      <Key ID="STR_ENH_toolSettings_fillArea_numObjects_displayName">
-        <Original>Number of Objects</Original>
-        <English>Number of Objects</English>
-        <Czech>Počet objektů</Czech>
-        <French>Nombre d'Objets</French>
-        <Spanish>Número de objetos</Spanish>
-        <German>Anzahl an Objekten</German>
-      </Key>
-      <Key ID="STR_ENH_toolSettings_fillArea_areaSize_displayName">
-        <Original>Area Size</Original>
-        <English>Area Size</English>
-        <Czech>Velikost oblasti</Czech>
-        <French>Taille de la Zone</French>
-        <Spanish>Tamaño del área</Spanish>
-        <German>Gebietsgröße</German>
-      </Key>
-      <Key ID="STR_ENH_toolSettings_linePatternSpacing_displayName">
-        <Original>Line Pattern Spacing</Original>
-        <English>Line Pattern Spacing</English>
-        <Czech>Mezera mezi linií</Czech>
-        <French>Espacement du positionnement "Aligner"</French>
-        <Spanish>Espaciado formación en línea</Spanish>
-        <German>Linienmusterabstand</German>
-      </Key>
-      <Key ID="STR_ENH_toolSettings_fillArea_category">
-        <Original>Settings: Fill Area </Original>
-        <English>Settings: Fill Area </English>
-        <Czech>Nastavení: Výplň</Czech>
-        <French>Paramètres : Remplissage de zone</French>
-        <Spanish>Configuración: Área de relleno</Spanish>
-        <German>Einstellungen: Bereich füllen</German>
-      </Key>
-      <Key ID="STR_ENH_toolSettings_pattern_category">
-        <Original>Settings: Pattern Tools</Original>
-        <English>Settings: Pattern Tools</English>
-        <Czech>Nastavení: Nástroje tvaru</Czech>
-        <French>Paramètres : Outil de Remplissage</French>
-        <Spanish>Configuración de Formaciones</Spanish>
-        <German>Einstellungen: Muster-Werkzeuge</German>
-      </Key>
-    </Container>
     <Container name="Save Loadout">
       <Key ID="STR_ENH_saveLoadout_displayName">
         <Original>Save Loadout</Original>
@@ -367,6 +245,18 @@
         <French>Restaure l'équipement lors de la réapparition.</French>
         <Spanish>Restaurar equipamiento en el respawn</Spanish>
         <German>Ausrüstung wird beim Wiedereinstieg wiederhergestellt.</German>
+      </Key>
+    </Container>
+    <Container name="Editable Objects (Zeus)">
+      <Key ID="STR_ENH_editableObjZeus_displayName">
+        <Original>Editable Objects (Zeus)</Original>
+        <English>Editable Objects (Zeus)</English>
+        <German>Editierbare Objekte (Zeus)</German>
+      </Key>
+      <Key ID="STR_ENH_editableObjZeus_tooltip">
+        <Original>Checks all alive objects (except logics) every 60 seconds and makes them available for editing for all curators.\nIf no curators are in game, the attribute will not work.</Original>
+        <English>Checks all alive objects (except logics) every 60 seconds and makes them available for editing for all curators.\nIf no curators are in game, the attribute will not work.</English>
+        <German>Stellt alle lebenden Objekte alle 60 Sekunden für jeden Kurator zum Bearbeiten zur Verfügung. Wenn keine Kuratoren vorhanden sind, funktioniert dieses Attribut nicht.</German>
       </Key>
     </Container>
   </Package>
@@ -1945,6 +1835,11 @@
         <Spanish>Cambio de nombre en lote</Spanish>
         <German>Batch Naming</German>
       </Key>
+      <Key ID="STR_ENH_colourPicker">
+        <Original>Colour Picker</Original>
+        <English>Colour Picker</English>
+        <German>Farbauswahl Werkzeug</German>
+      </Key>
     </Container>
     <Container name="Tool Folders">
       <Key ID="STR_ENH_toolFolder_main_displayName">
@@ -2066,6 +1961,62 @@
         <German>Betrachtungswinkel</German>
       </Key>
     </Container>
+    <Container name="Intro Text">
+      <Key ID="STR_ENH_introText_displayName">
+        <Original>Intro Text</Original>
+        <English>Intro Text</English>
+        <Czech>Úvodní text</Czech>
+        <French>Texte d'introduction</French>
+        <Spanish>Texto de la intro</Spanish>
+        <German>Intro Text</German>
+      </Key>
+      <Key ID="STR_ENH_introText_introDelay_displayName">
+        <Original>Delay</Original>
+        <English>Delay</English>
+        <Czech>Prodleva</Czech>
+        <French>Délai</French>
+        <Spanish>Retraso</Spanish>
+        <German>Verzögerung</German>
+      </Key>
+      <Key ID="STR_ENH_introText_introDelay_tooltip">
+        <Original>Defines how much time has to pass until the intro text is shown. Setting it to 0 will disable the intro.</Original>
+        <English>Defines how much time has to pass until the intro text is shown. Setting it to 0 will disable the intro.</English>
+        <Czech>Určuje kolik času musí uplynout než se úvodní text zobrazí. Nastavení této hodnoty na 0 deaktivuje intro.</Czech>
+        <French>Défini le délai d'apparition du texte d'introduction. Définir sur 0 pour désactiver l'introduction.</French>
+        <Spanish>Define cuánto tiempo tiene que pasar hasta que se muestre el texto de introducción. Si se establece en 0, se inhabilitará la introducción.</Spanish>
+        <German>Bestimmt wie viel Zeit vergehen muss bis das Intro angezeigt wird. Das Setzen auf 0 deaktiviert das Intro.</German>
+      </Key>
+      <Key ID="STR_ENH_introText_line1_displayName">
+        <Original>First Line</Original>
+        <English>First Line</English>
+        <Czech>První řádek</Czech>
+        <French>Première ligne</French>
+        <Spanish>Primera línea</Spanish>
+        <German>Erste Zeile</German>
+      </Key>
+      <Key ID="STR_ENH_introText_line2_displayName">
+        <Original>Second Line</Original>
+        <English>Second Line</English>
+        <Czech>Druhý řádek</Czech>
+        <French>Deuxième ligne</French>
+        <Spanish>Segunda línea</Spanish>
+        <German>Zweite Zeile</German>
+      </Key>
+      <Key ID="STR_ENH_introText_line3_displayName">
+        <Original>Third Line</Original>
+        <English>Third Line</English>
+        <Czech>Třetí řádek</Czech>
+        <French>Troisième ligne</French>
+        <Spanish>Tercera línea</Spanish>
+        <German>Dritte Zeile</German>
+      </Key>
+      <Key ID="STR_ENH_introText_introType_displayName">
+        <Original>APEX Protocol Style</Original>
+        <English>APEX Protocol Style</English>
+        <Spanish>Estilo Protocolo APEX</Spanish>
+        <German>APEX Protocol Stil</German>
+      </Key>
+    </Container>
     <Container name="Terrain Quality">
       <Key ID="STR_ENH_terrainGrid_grassDisabled_displayName">
         <Original>Grass disabled</Original>
@@ -2176,7 +2127,6 @@
         <German>Wähle die Animation.</German>
       </Key>
     </Container>
-    <Container name="Intro Text" />
   </Package>
   <Package name="Attribute Category Headlines">
     <Container name="Advanced Damage">
@@ -2207,16 +2157,6 @@
         <French>Paramètres graphiques</French>
         <Spanish>Configuración visual</Spanish>
         <German>Grafikeinstellungen</German>
-      </Key>
-    </Container>
-    <Container name="Intro Text">
-      <Key ID="STR_ENH_introText_headline">
-        <Original>Intro Text</Original>
-        <English>Intro Text</English>
-        <Czech>Úvodní text</Czech>
-        <French>Texte d'introduction</French>
-        <Spanish>Texto de la introducción</Spanish>
-        <German>Intro Text</German>
       </Key>
     </Container>
     <Container name="Advanced Skill Settings">
@@ -2589,6 +2529,95 @@
         <Original>Close</Original>
         <English>Close</English>
         <German>Schließen</German>
+      </Key>
+    </Container>
+    <Container name="Pattern Tools">
+      <Key ID="STR_ENH_patternTools_numObjects">
+        <Original>Number of Objects</Original>
+        <English>Number of Objects</English>
+        <Czech>Počet objektů</Czech>
+        <French>Nombre d'Objets</French>
+        <Spanish>Número de objetos</Spanish>
+        <German>Anzahl an Objekten</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_fillArea_header">
+        <Original>Fill Area </Original>
+        <English>Fill Area </English>
+        <Czech>Výplň</Czech>
+        <French>Remplissage de zone</French>
+        <Spanish>Área de relleno</Spanish>
+        <German>Bereich füllen</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_header">
+        <Original>Settings: Pattern Tools</Original>
+        <English>Settings: Pattern Tools</English>
+        <Czech>Nastavení: Nástroje tvaru</Czech>
+        <French>Paramètres : Outil de Remplissage</French>
+        <Spanish>Configuración de Formaciones</Spanish>
+        <German>Einstellungen: Muster-Werkzeuge</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_radius">
+        <Original>Radius</Original>
+        <English>Radius</English>
+        <German>Radius</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_circular_header">
+        <Original>Circular Pattern</Original>
+        <English>Circular Pattern</English>
+        <Czech>Kruhový vzor</Czech>
+        <French>En cercle</French>
+        <Spanish>En círculo</Spanish>
+        <German>Kreismuster</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_linePattern_header">
+        <Original>Line Pattern</Original>
+        <English>Line Pattern</English>
+        <Czech>Zobrazit linie</Czech>
+        <French>Aligner</French>
+        <Spanish>En línea</Spanish>
+        <German>Linienmuster</German>
+      </Key>
+      <Key ID="STR_ENH_patternTool_spacing">
+        <Original>Spacing</Original>
+        <English>Spacing</English>
+        <German>Abstand</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_A">
+        <Original>A</Original>
+        <English>A</English>
+        <German>A</German>
+      </Key>
+      <Key ID="STR_ENH_patternTools_B">
+        <Original>B</Original>
+        <English>B</English>
+        <German>B</German>
+      </Key>
+    </Container>
+    <Container name="Colour Picker">
+      <Key ID="STR_ENH_colourPicker_finalColour">
+        <Original>Final Colour</Original>
+        <English>Final Colour</English>
+        <German>Fertige Farbe</German>
+      </Key>
+      <Key ID="STR_ENH_colourPicker_red">
+        <Original>Red</Original>
+        <English>Red</English>
+        <German>Rot</German>
+      </Key>
+      <Key ID="STR_ENH_colourPicker_green">
+        <Original>Green</Original>
+        <English>Green</English>
+        <German>Grün</German>
+      </Key>
+      <Key ID="STR_ENH_colourPicker_blue">
+        <Original>Blue</Original>
+        <English>Blue</English>
+        <German>Blau</German>
+      </Key>
+      <Key ID="STR_ENH_colourPicker_alpha">
+        <Original>Alpha</Original>
+        <English>Alpha</English>
+        <German>Alpha</German>
       </Key>
     </Container>
   </Package>
