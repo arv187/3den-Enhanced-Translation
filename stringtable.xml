@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="3den Enhanced">
   <Package name="Mission Attributes">
+    <Container name="Enable Team Switch">
+      <Key ID="STR_ENH_disableTeamSwitch_displayName">
+        <Original>Enable Team Switch</Original>
+        <English>Enable Team Switch</English>
+        <German>Teamwechsel erlauben</German>
+      </Key>
+    </Container>
     <Container name="Time Multiplier">
       <Key ID="STR_ENH_timeMultiplier_displayName">
         <Original>Time Multiplier</Original>
@@ -277,6 +284,30 @@
         <Spanish>Establece el balanceo del arma del jugador. Este estado se conserva incluso después de respawn.</Spanish>
       </Key>
     </Container>
+    <Container name="Force Flag">
+      <Key ID="STR_ENH_forceFlag_displayName">
+        <Original>Flagge anbringen</Original>
+        <English>Add Flag</English>
+        <German>Flagge anbringen</German>
+      </Key>
+      <Key ID="STR_ENH_forceFlag_tooltip">
+        <Original>Forces a flag texture onto a flag carrier (unit, vehicle or flag pole). No flag holder is required. </Original>
+        <English>Forces a flag texture onto a flag carrier (unit, vehicle or flag pole). No flag holder is required. </English>
+        <German>Bringt eine Flaggentexture an dem Flaggenträger an (Einheit, Fahrzeug oder Fahnenmast). Es wird keine Halterung für die Flagge benötigt.</German>
+      </Key>
+    </Container>
+    <Container name="Do Stop">
+      <Key ID="STR_ENH_doStop_displayName">
+        <Original>Stay on position</Original>
+        <English>Stay on position</English>
+        <German>Auf Position bleiben</German>
+      </Key>
+      <Key ID="STR_ENH_doStop_tooltip">
+        <Original>Prevents AI from moving into formation at mission start.</Original>
+        <English>Prevents AI from moving into formation at mission start.</English>
+        <German>Verhindert das die KI beim Missionsstart in Formation tritt.</German>
+      </Key>
+    </Container>
     <Container name="Weapon Recoil">
       <Key ID="STR_ENH_weaponRecoil_displayName">
         <Original>Weapon Recoil</Original>
@@ -534,36 +565,6 @@
         <French>Jambes</French>
         <Spanish>Piernas</Spanish>
         <German>Beine</German>
-      </Key>
-    </Container>
-    <Container name="Remove NVG">
-      <Key ID="STR_ENH_removeNVG_displayName">
-        <Original>Remove NVGs</Original>
-        <English>Remove NVGs</English>
-        <Czech>Odstranit brýle pro noční vidění</Czech>
-        <French>Enlever les JVN</French>
-        <Spanish>Quitar NVGs</Spanish>
-        <German>Entferne Nachtsichtgerät</German>
-      </Key>
-    </Container>
-    <Container name="Remove Map">
-      <Key ID="STR_ENH_removeMap_displayName">
-        <Original>Remove Map</Original>
-        <English>Remove Map</English>
-        <Czech>Odstranit mapu</Czech>
-        <French>Enlever la carte</French>
-        <Spanish>Quitar mapa</Spanish>
-        <German>Entferne Karte</German>
-      </Key>
-    </Container>
-    <Container name="Remove GPS">
-      <Key ID="STR_ENH_removeGPS_displayName">
-        <Original>Remove GPS</Original>
-        <English>Remove GPS</English>
-        <Czech>Odstranit GPS</Czech>
-        <French>Supprimer le GPS</French>
-        <Spanish>Quitar GPS</Spanish>
-        <German>Entferne GPS</German>
       </Key>
     </Container>
     <Container name="Clear Inventory">
@@ -845,6 +846,22 @@
       </Key>
     </Container>
     <Container name="DisableAI">
+      <Key ID="STR_ENH_disableAI_mineDetection_displayName">
+        <Original>Mine detection</Original>
+        <English>Mine detection</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Minenerkennung</German>
+      </Key>
+      <Key ID="STR_ENH_disableAI_weaponAim_displayName">
+        <Original>Weapon Aim</Original>
+        <English>Weapon Aim</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <German>Zielen</German>
+      </Key>
       <Key ID="STR_ENH_disableAI_move_displayName">
         <Original>Move</Original>
         <English>Move</English>
@@ -1028,16 +1045,6 @@
         <French>Désactive le passage automatique de l'unité en mode combat </French>
         <Spanish>Deshabilita el cambio automático al modo COMBATE cuando está en peligro.</Spanish>
         <German>Die KI wechselt nicht mehr automatisch in den Gefahrenmodus.</German>
-      </Key>
-    </Container>
-    <Container name="Remove FAKs">
-      <Key ID="STR_ENH_removeFAKs_displayName">
-        <Original>Remove FAKs</Original>
-        <English>Remove FAKs</English>
-        <Czech>Odstraní soupravy první pomoci</Czech>
-        <French>Enlève les Kits de Premiers Secours</French>
-        <Spanish>Quita kits de primeros auxilios</Spanish>
-        <German>Entferne Verbandskästen</German>
       </Key>
     </Container>
     <Container name="Engine On">
@@ -1337,24 +1344,6 @@
         <German>Erzwinge Gehen</German>
       </Key>
     </Container>
-    <Container name="Stay on Road">
-      <Key ID="STR_ENH_forceFollowRoad_displayName">
-        <Original>Stay on road</Original>
-        <English>Stay on road</English>
-        <Czech>Držet se silnicí</Czech>
-        <French>Rester sur la route</French>
-        <Spanish>Permanecer en la carretera</Spanish>
-        <German>Auf Straße bleiben</German>
-      </Key>
-      <Key ID="STR_ENH_forceFollowRoad_tooltip">
-        <Original>Forces the vehicle to stay on the road.</Original>
-        <English>Forces the vehicle to stay on the road.</English>
-        <Czech>Přinutí vozidlo držet se silnicí.</Czech>
-        <French>Oblige l'unité à se déplacer sur la route.</French>
-        <Spanish>Fuerza al vehículo a permanecer en la carretera.</Spanish>
-        <German>Zwingt das Fahrzeug dazu nur Straßen zu benutzen.</German>
-      </Key>
-    </Container>
     <Container name="Feature Type">
       <Key ID="STR_ENH_featureType_displayName">
         <Original>Visibility</Original>
@@ -1395,62 +1384,54 @@
   <Package name="Display3DEN.hpp">
     <Container name="Context Menu">
       <Key ID="STR_ENH_logClassName">
-        <Original>Log Class to Clipboard</Original>
-        <English>Log Class to Clipboard</English>
+        <Original>Log class to clipboard</Original>
+        <English>Log class to clipboard</English>
         <Czech>Zaznamenat třídu do schránky</Czech>
         <French>Log Class vers le presse-papier</French>
         <Spanish>Registar "Class" en el portapapeles.</Spanish>
         <German>Kopiere Klasse in Zwischenablage</German>
       </Key>
       <Key ID="STR_ENH_getModuleDescription">
-        <Original>Show Module Description</Original>
-        <English>Show Module Description</English>
+        <Original>Show module description</Original>
+        <English>Show module description</English>
         <Czech>Zobrazit popis modulu</Czech>
         <French>Afficher la description du module</French>
         <Spanish>Mostrar descripción del módulo</Spanish>
         <German>Zeige Modulbeschreibung</German>
       </Key>
       <Key ID="STR_ENH_garrison_header">
-        <Original>Garrison Buildings</Original>
-        <English>Garrison Buildings</English>
+        <Original>Garrison buildings</Original>
+        <English>Garrison buildings</English>
         <Czech>Obsadit budovy</Czech>
         <French>Placer en garnison</French>
         <Spanish>Guarnicionar edificios</Spanish>
         <German>Gebäude besetzen</German>
       </Key>
       <Key ID="STR_ENH_setTriggerOwnerPlayer">
-        <Original>Set Player as Trigger Owner</Original>
-        <English>Set Player as Trigger Owner </English>
+        <Original>Set player as trigger owner</Original>
+        <English>Set player as trigger owner</English>
         <Czech>Nastavit hráče jako vlastníka spínače</Czech>
         <French>Définir l'unité joueur en tant que propriétaire du déclencheur</French>
         <Spanish>Establecer jugador como propietario del trigger (activador)</Spanish>
         <German>Spieler als Auslöser-Besitzer festlegen</German>
       </Key>
-      <Key ID="STR_ENH_hideTerrainObjects">
-        <Original>Hide Terrain Objects</Original>
-        <English>Hide Terrain Objects</English>
-        <Czech>Skrýt objekty na mapě</Czech>
-        <French>Masquer les objets présents sur la carte</French>
-        <Spanish>Ocultar objetos del terreno</Spanish>
-        <German>Kartenobjekte verstecken</German>
-      </Key>
       <Key ID="STR_ENH_deleteCrew">
-        <Original>Delete Crew</Original>
-        <English>Delete Crew</English>
+        <Original>Delete crew</Original>
+        <English>Delete crew</English>
         <French>Supprimer l'équipage</French>
         <Spanish>Borrar tripulación</Spanish>
         <German>Besatzung entfernen</German>
       </Key>
       <Key ID="STR_ENH_getSize">
-        <Original>Get Object's Size</Original>
-        <English>Get Object's Size</English>
+        <Original>Get object's size</Original>
+        <English>Get object's size</English>
         <French>Obtenir les dimensions de l'objet</French>
         <Spanish>Tomar el tamaño del objeto</Spanish>
         <German>Objektgröße messen</German>
       </Key>
       <Key ID="STR_ENH_logPositions">
-        <Original>Log Positions</Original>
-        <English>Log Positions</English>
+        <Original>Log positions</Original>
+        <English>Log positions</English>
         <German>Kopiere Positionen in Zwischenablage</German>
       </Key>
     </Container>
@@ -2978,6 +2959,130 @@
         <English>Guard</English>
         <Spanish>Guarda</Spanish>
         <German>Bewachen</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Debug Triggers">
+    <Container name="Debug Triggers">
+      <Key ID="STR_ENH_debugTriggers_Arsenal">
+        <Original>Arsenal</Original>
+        <English>Arsenal</English>
+        <Czech>Arsenal</Czech>
+        <French>Arsenal</French>
+        <Spanish>Arsenal</Spanish>
+        <Italian>Arsenal</Italian>
+        <Polish>Arsenal</Polish>
+        <Portuguese>Arsenal</Portuguese>
+        <Russian>Arsenal</Russian>
+        <German>Arsenal</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_skipTime">
+        <Original>SkipTime + 1 hour</Original>
+        <English>SkipTime + 1 hour</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Zeitsprung +1 Stunde</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_captive">
+        <Original>Toggle captive mode</Original>
+        <English>Toggle captive mode</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>'Captive' Modus an/aus</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_invulnerability">
+        <Original>Toggle invulnerability</Original>
+        <English>Toggle invulnerability</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Unverwundbarkeit an/aus</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_awareness">
+        <Original>Show enemy awareness</Original>
+        <English>Show enemy awareness</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Feindl. Aufmerksamkeit anzeigen</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_bulletTracking">
+        <Original>Toggle bullet tracking</Original>
+        <English>Toggle bullet tracking</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Projektilverfolung an/aus</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_reveal">
+        <Original>Reveal units</Original>
+        <English>Reveal units</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Einheiten aufdecken</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_timeMulti">
+        <Original>Change time multiplier</Original>
+        <English>Change time multiplier</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Zeitmultiplikator ändern</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_teleport">
+        <Original>Teleport</Original>
+        <English>Teleport</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Teleportieren</German>
+      </Key>
+      <Key ID="STR_ENH_debugTriggers_heal_repair">
+        <Original>Heal &amp; Repair</Original>
+        <English>Heal &amp; Repair</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Heilen &amp; Reparieren</German>
       </Key>
     </Container>
   </Package>
