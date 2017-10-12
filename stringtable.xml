@@ -1384,55 +1384,65 @@
   <Package name="Display3DEN.hpp">
     <Container name="Context Menu">
       <Key ID="STR_ENH_logClassName">
-        <Original>Log class to clipboard</Original>
-        <English>Log class to clipboard</English>
+        <Original>Log Class to Clipboard</Original>
+        <English>Log Class to Clipboard</English>
         <Czech>Zaznamenat třídu do schránky</Czech>
         <French>Log Class vers le presse-papier</French>
         <Spanish>Registar "Class" en el portapapeles.</Spanish>
         <German>Kopiere Klasse in Zwischenablage</German>
       </Key>
       <Key ID="STR_ENH_getModuleDescription">
-        <Original>Show module description</Original>
-        <English>Show module description</English>
+        <Original>Show Module Description</Original>
+        <English>Show Module Description</English>
         <Czech>Zobrazit popis modulu</Czech>
         <French>Afficher la description du module</French>
         <Spanish>Mostrar descripción del módulo</Spanish>
         <German>Zeige Modulbeschreibung</German>
       </Key>
       <Key ID="STR_ENH_garrison_header">
-        <Original>Garrison buildings</Original>
-        <English>Garrison buildings</English>
+        <Original>Garrison Buildings</Original>
+        <English>Garrison Buildings</English>
         <Czech>Obsadit budovy</Czech>
         <French>Placer en garnison</French>
         <Spanish>Guarnicionar edificios</Spanish>
         <German>Gebäude besetzen</German>
       </Key>
       <Key ID="STR_ENH_setTriggerOwnerPlayer">
-        <Original>Set player as trigger owner</Original>
-        <English>Set player as trigger owner</English>
+        <Original>Set Player as Trigger Owner</Original>
+        <English>Set Player as Trigger Owner</English>
         <Czech>Nastavit hráče jako vlastníka spínače</Czech>
         <French>Définir l'unité joueur en tant que propriétaire du déclencheur</French>
         <Spanish>Establecer jugador como propietario del trigger (activador)</Spanish>
         <German>Spieler als Auslöser-Besitzer festlegen</German>
       </Key>
       <Key ID="STR_ENH_deleteCrew">
-        <Original>Delete crew</Original>
-        <English>Delete crew</English>
+        <Original>Delete Crew</Original>
+        <English>Delete Crew</English>
         <French>Supprimer l'équipage</French>
         <Spanish>Borrar tripulación</Spanish>
         <German>Besatzung entfernen</German>
       </Key>
       <Key ID="STR_ENH_getSize">
-        <Original>Get object's size</Original>
-        <English>Get object's size</English>
+        <Original>Get Object's Size</Original>
+        <English>Get Object's Size</English>
         <French>Obtenir les dimensions de l'objet</French>
         <Spanish>Tomar el tamaño del objeto</Spanish>
         <German>Objektgröße messen</German>
       </Key>
       <Key ID="STR_ENH_logPositions">
-        <Original>Log positions</Original>
-        <English>Log positions</English>
+        <Original>Log Positions</Original>
+        <English>Log Positions</English>
         <German>Kopiere Positionen in Zwischenablage</German>
+      </Key>
+      <Key ID="STR_ENH_logCompositionToSQF">
+        <Original>Log Composition to Clipboard</Original>
+        <English>Log Composition to Clipboard</English>
+        <German>Kopiere Zusammenstellung in Zwischenablage</German>
+      </Key>
+      <Key ID="STR_ENH_show3DENID">
+        <Original>Show 3DEN Entity ID</Original>
+        <English>Show 3DEN Entity ID</English>
+        <German>Zeige 3DEN Objekt ID</German>
       </Key>
     </Container>
     <Container name="Help">
