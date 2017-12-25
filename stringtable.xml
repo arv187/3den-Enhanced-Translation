@@ -847,8 +847,8 @@
     </Container>
     <Container name="DisableAI">
       <Key ID="STR_ENH_disableAI_mineDetection_displayName">
-        <Original>Mine detection</Original>
-        <English>Mine detection</English>
+        <Original>Mine Detection</Original>
+        <English>Mine Detection</English>
         <Czech />
         <French />
         <Spanish />
@@ -1392,20 +1392,20 @@
         <German>Kopiere Klasse in Zwischenablage</German>
       </Key>
       <Key ID="STR_ENH_getModuleDescription">
-        <Original>Show Module Description</Original>
-        <English>Show Module Description</English>
-        <Czech>Zobrazit popis modulu</Czech>
-        <French>Afficher la description du module</French>
-        <Spanish>Mostrar descripción del módulo</Spanish>
-        <German>Zeige Modulbeschreibung</German>
+        <Original>Module Description...</Original>
+        <English>Module Description...</English>
+        <Czech>Zobrazit popis modulu...</Czech>
+        <French>Afficher la description du module...</French>
+        <Spanish>Mostrar descripción del módulo...</Spanish>
+        <German>Modulbeschreibung...</German>
       </Key>
       <Key ID="STR_ENH_garrison_header">
-        <Original>Garrison Buildings</Original>
-        <English>Garrison Buildings</English>
-        <Czech>Obsadit budovy</Czech>
-        <French>Placer en garnison</French>
-        <Spanish>Guarnicionar edificios</Spanish>
-        <German>Gebäude besetzen</German>
+        <Original>Garrison Buildings...</Original>
+        <English>Garrison Buildings...</English>
+        <Czech>Obsadit budovy...</Czech>
+        <French>Placer en garnison...</French>
+        <Spanish>Guarnicionar edificios...</Spanish>
+        <German>Gebäude besetzen...</German>
       </Key>
       <Key ID="STR_ENH_setTriggerOwnerPlayer">
         <Original>Set Player as Trigger Owner</Original>
@@ -1449,7 +1449,7 @@
       <Key ID="STR_ENH_HelpFunctionsOverview">
         <Original>Functions Overview...</Original>
         <English>Functions Overview...</English>
-        <Czech>Přehled funkce</Czech>
+        <Czech>Přehled funkce...</Czech>
         <French>Aperçu des fonctions...</French>
         <Spanish>Resumen de las funciones...</Spanish>
         <German>Funktionsübersicht...</German>
@@ -1457,7 +1457,7 @@
       <Key ID="STR_ENH_HelpAssets">
         <Original>Assets Overview...</Original>
         <English>Assets Overview...</English>
-        <Czech>Přehled objektů</Czech>
+        <Czech>Přehled objektů...</Czech>
         <French>Aperçu des assets...</French>
         <Spanish>Resumen de assets...</Spanish>
         <German>Objektübersicht...</German>
@@ -1468,12 +1468,12 @@
         <Czech>KK's Blog...</Czech>
         <French>Blog de KillzoneKid...</French>
         <Spanish>Blog de KillzoneKid...</Spanish>
-        <German>KK's Blog</German>
+        <German>KK's Blog...</German>
       </Key>
       <Key ID="STR_ENH_HelpKylania">
         <Original>Script Examples by Kylania...</Original>
         <English>Script Examples by Kylania...</English>
-        <Czech>Script Examples by Kylania</Czech>
+        <Czech>Script Examples by Kylania...</Czech>
         <French>Exemples de scripts par Kylania...</French>
         <Spanish>Ejemplos de scripts por Kylania...</Spanish>
         <German>Skriptbespiele von Kylania...</German>
@@ -1497,7 +1497,7 @@
       <Key ID="STR_ENH_HelpFockersScriptingTutorial">
         <Original>Focker's Scripting Tutorial...</Original>
         <English>Focker's Scripting Tutorial...</English>
-        <Czech>Focker's Scripting Tutorial</Czech>
+        <Czech>Focker's Scripting Tutorial...</Czech>
         <French>Tutoriel de Scripting par Focker</French>
         <Spanish>Tutorial scripting de Focker...</Spanish>
         <German>Focker's Programmiertutorial...</German>
@@ -1507,29 +1507,29 @@
         <English>Guide: Mission &amp; Campaign making...</English>
         <Czech>Návod: vytváření misí &amp; kampaní...</Czech>
         <French>Guide : créer une Mission/Campagne...</French>
-        <Spanish>Guía: Misión y Campaña ...</Spanish>
+        <Spanish>Guía: Misión y Campaña...</Spanish>
         <German>Leitfaden: Missions- und Kampagnenerstellung...</German>
       </Key>
       <Key ID="STR_ENH_HelpFeuerex">
         <Original>Feuerex's Video Tutorials...</Original>
         <English>Feuerex's  Video Tutorials...</English>
         <Czech>Feuerex's Video Tutorials...</Czech>
-        <French>Tutoriels Vidéos de Feuerex</French>
-        <Spanish>Vídeo tutoriales de Feuerex</Spanish>
+        <French>Tutoriels Vidéos de Feuerex...</French>
+        <Spanish>Vídeo tutoriales de Feuerex...</Spanish>
         <German>Feuerex's  Video Tutorials...</German>
       </Key>
       <Key ID="STR_ENH_HelpMissionPresentation">
         <Original>Mission Presentation...</Original>
         <English>Mission Presentation...</English>
         <Czech>Prezentace mise...</Czech>
-        <French>Mise en page de la Présentation d'une Mission</French>
+        <French>Mise en page de la Présentation d'une Mission...</French>
         <Spanish>Presentación de misión...</Spanish>
         <German>Missionsdarstellung...</German>
       </Key>
       <Key ID="STR_ENH_Help3denEnhanced">
         <Original>3den Enhanced Forum...</Original>
         <English>3den Enhanced Forum...</English>
-        <Czech>Fórum 3den Enhanced</Czech>
+        <Czech>Fórum 3den Enhanced...</Czech>
         <French>Forum 3den Enhanced...</French>
         <Spanish>Foro 3den Enhanced...</Spanish>
         <German>3den Enhanced Forum...</German>
@@ -1545,7 +1545,7 @@
       <Key ID="STR_ENH_HelpScriptingBeginners">
         <Original>Scripting for Beginners...</Original>
         <English>Scripting for Beginners...</English>
-        <Czech>Skriptování pro začátečníky</Czech>
+        <Czech>Skriptování pro začátečníky...</Czech>
         <French>Débuter avec les Scripts...</French>
         <Spanish>Scripting para novatos...</Spanish>
         <German>Skripten für Anfänger...</German>
@@ -1556,6 +1556,11 @@
         <French>Compilation de scripts pour l'IA par Gunter Severloh</French>
         <Spanish>Compilación de scripts por Gunter Severloh...</Spanish>
         <German>KI Zusammenstellung von Gunter Severloh...</German>
+      </Key>
+      <Key ID="STR_ENH_EdenEnhancedChangelog">
+        <Original>Eden Enhanced Changelog...</Original>
+        <English>Eden Enhanced Changelog...</English>
+        <German>Eden Enhanced Änderungshistorie...</German>
       </Key>
     </Container>
     <Container name="Statusbar">
@@ -1594,12 +1599,12 @@
         <German>Kameraparameter exportieren</German>
       </Key>
       <Key ID="STR_ENH_tools_fillArea_displayName">
-        <Original>Fill Area</Original>
-        <English>Fill Area</English>
-        <Czech>Vyplnit oblast</Czech>
-        <French>Remplir la zone</French>
-        <Spanish>Rellenar área</Spanish>
-        <German>Bereich füllen</German>
+        <Original>Fill Area...</Original>
+        <English>Fill Area...</English>
+        <Czech>Vyplnit oblast...</Czech>
+        <French>Remplir la zone...</French>
+        <Spanish>Rellenar área...</Spanish>
+        <German>Bereich füllen...</German>
       </Key>
       <Key ID="STR_ENH_tools_copyLoadouts_displayName">
         <Original>Copy Loadout(s)</Original>
@@ -1626,12 +1631,12 @@
         <German>Ausrüstung exportieren (Config)</German>
       </Key>
       <Key ID="STR_ENH_tools_circularPattern_displayName">
-        <Original>Circular Pattern</Original>
-        <English>Circular Pattern</English>
-        <Czech>Kruhový vzor</Czech>
-        <French>En cercle</French>
-        <Spanish>En círculo</Spanish>
-        <German>Kreismuster</German>
+        <Original>Circular Pattern...</Original>
+        <English>Circular Pattern...</English>
+        <Czech>Kruhový vzor...</Czech>
+        <French>En cercle...</French>
+        <Spanish>En círculo...</Spanish>
+        <German>Kreismuster...</German>
       </Key>
       <Key ID="STR_ENH_tools_reverseDirection_displayName">
         <Original>Reverse Direction</Original>
@@ -1655,14 +1660,6 @@
         <French>Afficher les statistiques de la mission</French>
         <Spanish>Mostrar estadísticas de la misión</Spanish>
         <German>Zeige Missionstatistik</German>
-      </Key>
-      <Key ID="STR_ENH_tools_setZ0_displayName">
-        <Original>Set Z=0</Original>
-        <English>Set Z=0</English>
-        <Czech>Nastavit Z=0</Czech>
-        <French>Définir Axe Z=0</French>
-        <Spanish>Fijar Z=0</Spanish>
-        <German>Setze Z = 0</German>
       </Key>
       <Key ID="STR_ENH_tools_logFaction_displayName">
         <Original>Log Faction Names</Original>
@@ -1689,12 +1686,12 @@
         <German>Kopiere Spieleinformationen</German>
       </Key>
       <Key ID="STR_ENH_tools_briefingEditor_displayName">
-        <Original>Briefing Editor</Original>
-        <English>Briefing Editor</English>
-        <Czech>Editor brífinku</Czech>
-        <French>Editeur de briefing</French>
-        <Spanish>Editor de briefing</Spanish>
-        <German>Einsatzbesprechungseditor</German>
+        <Original>Briefing Editor...</Original>
+        <English>Briefing Editor...</English>
+        <Czech>Editor brífinku...</Czech>
+        <French>Editeur de briefing...</French>
+        <Spanish>Editor de briefing...</Spanish>
+        <German>Einsatzbesprechungseditor...</German>
       </Key>
       <Key ID="STR_ENH_tools_randomDir_displayName">
         <Original>Randomise Direction</Original>
@@ -1761,12 +1758,12 @@
         <German>FPS Anzeige an/ausschalten</German>
       </Key>
       <Key ID="STR_ENH_tools_linePattern_displayName">
-        <Original>Linepattern</Original>
-        <English>Linepattern</English>
-        <Czech>Zobrazit linie</Czech>
-        <French>Aligner</French>
-        <Spanish>En línea</Spanish>
-        <German>Linienmuster</German>
+        <Original>Linepattern...</Original>
+        <English>Linepattern...</English>
+        <Czech>Zobrazit linie...</Czech>
+        <French>Aligner...</French>
+        <Spanish>En línea...</Spanish>
+        <German>Linienmuster...</German>
       </Key>
       <Key ID="STR_ENH_tools_toggleGrass_displayName">
         <Original>Toggle Grass</Original>
@@ -1784,11 +1781,11 @@
         <German>GUI Klassen exportieren</German>
       </Key>
       <Key ID="STR_ENH_tools_GUITestGrids">
-        <Original>Open GUI Test Grids</Original>
-        <English>Open GUI Test Grids</English>
-        <French>Afficher les grilles de test GUI</French>
-        <Spanish>Abrir rejillas de pruebas del GUI</Spanish>
-        <German>GUI Testraster öffnen</German>
+        <Original>Open GUI Test Grids...</Original>
+        <English>Open GUI Test Grids...</English>
+        <French>Afficher les grilles de test GUI...</French>
+        <Spanish>Abrir rejillas de pruebas del GUI...</Spanish>
+        <German>GUI Testraster öffnen...</German>
       </Key>
       <Key ID="STR_ENH_tools_debugTriggers">
         <Original>Create Debug Triggers</Original>
@@ -1798,44 +1795,44 @@
         <German>Debug Auslöser erstellen</German>
       </Key>
       <Key ID="STR_ENH_tools_moonPhases">
-        <Original>Moon Phases</Original>
-        <English>Moon Phases</English>
+        <Original>Moon Phases...</Original>
+        <English>Moon Phases...</English>
         <French />
-        <Spanish>Fases lunares</Spanish>
-        <German>Mondphasen</German>
+        <Spanish>Fases lunares...</Spanish>
+        <German>Mondphasen...</German>
       </Key>
       <Key ID="STR_ENH_tools_jukebox">
-        <Original>Jukebox</Original>
-        <English>Jukebox</English>
+        <Original>Jukebox...</Original>
+        <English>Jukebox...</English>
         <French />
-        <Spanish>Toca discos</Spanish>
-        <German>Jukebox</German>
+        <Spanish>Toca discos...</Spanish>
+        <German>Jukebox...</German>
       </Key>
       <Key ID="STR_ENH_tools_printConfig">
-        <Original>Print Config</Original>
-        <English>Print Config</English>
+        <Original>Print Config...</Original>
+        <English>Print Config...</English>
         <French />
-        <Spanish>Imprimir configuración</Spanish>
-        <German>Config auslesen</German>
+        <Spanish>Imprimir configuración...</Spanish>
+        <German>Config auslesen...</German>
       </Key>
       <Key ID="STR_ENH_tools_CfgDisabledCommands">
-        <Original>CfgDisabled Commands Template Generator</Original>
-        <English>CfgDisabled Commands Template Generator</English>
+        <Original>CfgDisabled Commands Template Generator...</Original>
+        <English>CfgDisabled Commands Template Generator...</English>
         <French />
-        <Spanish>Generador de plantillas de comandos de CfgDisabled</Spanish>
-        <German>CfgDisabled Commands Template Generator</German>
+        <Spanish>Generador de plantillas de comandos de CfgDisabled...</Spanish>
+        <German>CfgDisabled Commands Template Generator...</German>
       </Key>
       <Key ID="STR_ENH_tools_batchNaming">
-        <Original>Batch Naming</Original>
-        <English>Batch Naming</English>
+        <Original>Batch Naming...</Original>
+        <English>Batch Naming...</English>
         <French />
-        <Spanish>Cambio de nombre en lote</Spanish>
-        <German>Batch Naming</German>
+        <Spanish>Cambio de nombre en lote...</Spanish>
+        <German>Batch Naming...</German>
       </Key>
       <Key ID="STR_ENH_colourPicker">
-        <Original>Colour Picker</Original>
-        <English>Colour Picker</English>
-        <German>Farbauswahl Werkzeug</German>
+        <Original>Colour Picker...</Original>
+        <English>Colour Picker...</English>
+        <German>Farbauswahl Werkzeug...</German>
       </Key>
     </Container>
     <Container name="Tool Folders">
@@ -1848,12 +1845,12 @@
         <German>3den Enhanced Werkzeuge...</German>
       </Key>
       <Key ID="STR_ENH_toolFolder_utilities_displayName">
-        <Original>Arma 3 Utilities</Original>
-        <English>Arma 3 Utilities</English>
+        <Original>Arma 3 Utilities...</Original>
+        <English>Arma 3 Utilities...</English>
         <Czech />
         <French />
-        <Spanish>Utilidades Arma 3</Spanish>
-        <German>Arma 3 Hilfsmittel</German>
+        <Spanish>Utilidades Arma 3...</Spanish>
+        <German>Arma 3 Hilfsmittel...</German>
       </Key>
       <Key ID="STR_ENH_toolFolder_placement_displayName">
         <Original>Placement Tools...</Original>
@@ -1866,7 +1863,7 @@
       <Key ID="STR_ENH_toolFolder_debug_displayName">
         <Original>Debug Tools...</Original>
         <English>Debug Tools...</English>
-        <Czech>Nástroje pro debug</Czech>
+        <Czech>Nástroje pro debug...</Czech>
         <French>Outil de débugage...</French>
         <Spanish>Herramientas de depuración...</Spanish>
         <German>Debug Werkzeuge...</German>
@@ -1882,20 +1879,20 @@
     </Container>
     <Container name="Help Folders">
       <Key ID="STR_ENH_HelpFolder_Wiki">
-        <Original>Arma 3 Wiki</Original>
-        <English>Arma 3 Wiki</English>
-        <Czech>Arma 3 Wiki</Czech>
+        <Original>Arma 3 Wiki...</Original>
+        <English>Arma 3 Wiki...</English>
+        <Czech>Arma 3 Wiki...</Czech>
         <French>Liens Wiki Arma 3...</French>
-        <Spanish>Wiki de Arma 3</Spanish>
+        <Spanish>Wiki de Arma 3...</Spanish>
         <German>Arma 3 Wiki</German>
       </Key>
       <Key ID="STR_ENH_HelpFolder_Community">
-        <Original>Community Help</Original>
-        <English>Community Help</English>
-        <Czech>Komunitní podporay</Czech>
+        <Original>Community Help...</Original>
+        <English>Community Help...</English>
+        <Czech>Komunitní podporay...</Czech>
         <French>Aide de la Communauté...</French>
-        <Spanish>Ayuda de la comunidad</Spanish>
-        <German>Community Hilfe</German>
+        <Spanish>Ayuda de la comunidad...</Spanish>
+        <German>Community Hilfe...</German>
       </Key>
       <Key ID="STR_ENH_HelpFolder_Youtube">
         <Original>Youtube Tutorials...</Original>
@@ -2617,6 +2614,71 @@
         <German>Alpha</German>
       </Key>
     </Container>
+    <Container name="Module Information">
+      <Key ID="STR_ENH_moduleInformation_description">
+        <Original>Description:</Original>
+        <English>Description:</English>
+        <German>Beschreibung:</German>
+      </Key>
+      <Key ID="STR_ENH_moduleInformation_position">
+        <Original>Position:</Original>
+        <English>Position:</English>
+        <German>Position:</German>
+      </Key>
+      <Key ID="STR_ENH_moduleInformation_duplicate">
+        <Original>Duplicate:</Original>
+        <English>Duplicate:</English>
+        <German>Duplizieren:</German>
+      </Key>
+      <Key ID="STR_ENH_moduleInformation_direction">
+        <Original>Direction:</Original>
+        <English>Direction:</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Ausrichtung:</German>
+      </Key>
+      <Key ID="STR_ENH_moduleInformation_sync">
+        <Original>Can be synced with:</Original>
+        <English>Can be synced with:</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Kann synchronisiert werden mit:</German>
+      </Key>
+      <Key ID="STR_ENH_moduleInformation_header">
+        <Original>Module Information</Original>
+        <English>Module Information</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Modulerläuterung</German>
+      </Key>
+      <Key ID="STR_ENH_moduleInformation_close">
+        <Original>Close</Original>
+        <English>Close</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Schließen</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Group Attributes">
     <Container name="Task Patrol">
@@ -3093,6 +3155,95 @@
         <Portuguese />
         <Russian />
         <German>Heilen &amp; Reparieren</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Functions">
+    <Container name="fn_locationList">
+      <Key ID="STR_ENH_locationList_locations">
+        <Original>Cities &amp; Villages</Original>
+        <English>Cities &amp; Villages</English>
+        <German>Städte und Dörfer</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_chapels">
+        <Original>Chapels</Original>
+        <English>Chapels</English>
+        <German>Kapellen</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_fuelStations">
+        <Original>Fuel Stations</Original>
+        <English>Fuel Stations</English>
+        <German>Tankstellen</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_churches">
+        <Original>Churches</Original>
+        <English>Churches</English>
+        <German>Kirchen</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_transmitters">
+        <Original>Transmitters</Original>
+        <English>Transmitters</English>
+        <German>Transmitter</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_hospitals">
+        <Original>Hospitals</Original>
+        <English>Hospitals</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Krankenhäuser</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_shipwrecks">
+        <Original>Shipwrecks</Original>
+        <English>Shipwrecks</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Schiffswracke</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_solarDieselPower">
+        <Original>Solar/Diesel Power Plants</Original>
+        <English>Solar/Diesel Power Plants</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Solar/Dieselkraftwerke</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_wavePower">
+        <Original>Tital Power Plants</Original>
+        <English>Tital Power Plants</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Gezeitenkraftwerke</German>
+      </Key>
+      <Key ID="STR_ENH_locationList_windPower">
+        <Original>Wind Turbines</Original>
+        <English>Wind Turbines</English>
+        <Czech />
+        <French />
+        <Spanish />
+        <Italian />
+        <Polish />
+        <Portuguese />
+        <Russian />
+        <German>Windkraftanlagen</German>
       </Key>
     </Container>
   </Package>
